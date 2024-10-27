@@ -3,8 +3,8 @@ const mysql = require('mysql2');
 // Configura la conexión a la base de datos
 const db = mysql.createConnection({
     host: 'localhost',      // Cambia si tu base de datos está en un servidor diferente
-    user: 'admin',           // Usuario de MySQL
-    password: 'C0qu1t0', // Contraseña de MySQL
+    user: '',           // Usuario de MySQL
+    password: '', // Contraseña de MySQL
     database: 'ACTIVIDAD8'  // Nombre de la base de datos
 });
 
